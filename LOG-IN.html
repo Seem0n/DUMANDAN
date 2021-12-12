@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Cafè | USER</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Font/css/fontawesome.css" rel="stylesheet">
+        <link href="Font/css/brands.css" rel="stylesheet">
+        <link href="Font/css/solid.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="INDEX/favicon.ico">
+        <link rel="stylesheet" href="CSS/navigation.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif; }
+form {border: 3px solid #f1f1f1;}
+
+body{
+  background-image: url('css/bg1-products.jpg');
+  margin: 0px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: wheat;
+  color:black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.6;
+  color:white;
+  background-color:black;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: wheat;
+  margin-right: 100%;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 30%;
+}
+
+.container {
+  padding: 16px;
+  width: 50%;
+  z-index: -1;
+  background-color:rgb(245, 222, 179, 0.6);
+  border-radius: 12px 12px 0 0;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="navi"><!--NAVIGATION-->
+    <a class="active" href="index.html"><b>HOME</b></a>
+        <a href="Products.html"><b>PRODUCTS</b></a>
+        <a class="right" href=""><i class="fas fa-user"></i></a>
+    <a class="right" href="ABOUTUS.html"><b>ABOUT US</b></a>
+    <a class="right" href="CONTACTUS.html"><b>CONTACT US</b></a>
+</div><!--NAVIGATION END-->
+  <center>
+<form action="index.html" method="post">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1;border-radius: 0;">
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    <button class="cancelbtn" href="index.html">Cancel</button>
+  </div>
+</form>
+</center>
+</body>
+</html>
