@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('bg1-products.jpg');
+    background-attachment: fixed;
+    background-size:20%;
+    background-position: center;
+    margin: 0;
+
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: wheat;
+    color: black;
+    display: block;
+  }
+  footer i {
+    color:grey;
+    margin-top: 10px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .row {
+    margin: 0 -5px;
+    margin-top: 60px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(204, 129, 30);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: rgba(245, 222, 179, 0.767);
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    padding: 12px;
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    text-shadow: 2px 1px brown;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    bottom: auto;
+    position:sticky ;
+    border-radius: 0px 0px 12px 12px;
+  }
+  
+  .card button:hover {
+    background-color: black;
+  }
+
+/*CART*/
+.open-button {
+  background-color: wheat;
+  color: black;
+  padding: 25px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 25px;
+  z-index: 9;
+}
