@@ -1,15 +1,21 @@
 
 
-.content-section {/*MARK*/
+.content-section {
     margin: 1em;
 }
 
-.container { /*MARK*/
+.content-cart{
+    background-color:white;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.container { 
     max-width: 80%;
     margin: 0 auto;
     padding: 0 1.5em;
 }
-.section-header {/*MARK*/
+.section-header {
     font-family: "Metal Mania";
     font-weight: normal;
     color: #333;
@@ -19,6 +25,9 @@
     border: 0;
     max-width: 30%;
     left:35%;
+}
+
+.section-header2{
     box-shadow: 0 4px 8px 0 rgb(226, 157, 67);
     transform: translate(-50, -50);
     background-color:wheat;
@@ -26,15 +35,14 @@
     font-family: "Lucida Handwriting", cursive;
 }
 
-
-.btn {/*MARK*/
+.btn {
     text-align: left;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
 }
 
-.btn-primary {/*MARK*/
+.btn-primary {
     color: wheat;
     text-shadow: 2px white;
     background-color: brown;
@@ -43,15 +51,15 @@
     font-weight: bold;
 }
 
-.btn-primary:hover {/*MARK*/
+.btn-primary:hover {
     background-color: rgb(0, 0, 0);
 }
 
-.shop-item {/*MARK*/
+.shop-item {
     margin: 30px;
 }
 
-.shop-item-title {/*MARK*/
+.shop-item-title {
     display: block;
     width: 100%;
     text-align: center;
@@ -68,36 +76,36 @@
     margin-top: auto;
 }
 
-.shop-item-image {/*MARK*/
+.shop-item-image {
     height: auto;
     border-radius: 12px 12px 0 0 ;
 }
 
-.shop-item-details {/*MARK*/
+.shop-item-details {
     display: flex;
     align-items: center;
     padding: 5px;
 }
 
-.shop-item-price {/*MARK*/
+.shop-item-price {
     flex-grow: 1;
     color: brown;
     font-size: 19px;
 }
 
-.shop-items {/*MARK*/
+.shop-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.cart-header {/*MARK*/
+.cart-header {
     font-weight: bold;
     font-size: 1.25em;
     color: #333;
 }
 
-.cart-column {/*MARK*/
+.cart-column {
     display: flex;
     align-items: center;
     border-bottom: 1px solid black;
@@ -106,38 +114,38 @@
     margin-top: 10px;
 }
 
-.cart-row {/*MARK*/
+.cart-row {
     display: flex;
 }
 
-.cart-item {/*MARK*/
+.cart-item {
     width: 45%;
 }
 
-.cart-price {/*MARK*/
+.cart-price {
     width: 20%;
     font-size: 1.2em;
     color: #333;
 }
 
-.cart-quantity {/*MARK*/
+.cart-quantity {
     width: 40%;
 }
 
-.cart-item-title {/*MARK*/
+.cart-item-title {
     font-weight: bold;
     color: #333;
     margin-left: .5em;
     font-size: 1.2em;
 }
 
-.cart-item-image {/*MARK*/
+.cart-item-image {
     width: 75px;
     height: auto;
     border-radius: 10px;
 }
 
-.btn-danger {/*MARK*/
+.btn-danger {
     color: white;
     background-color: black;
     border: none;
@@ -145,11 +153,11 @@
     font-weight: bold;
 }
 
-.btn-danger:hover {/*MARK*/
+.btn-danger:hover {
     background-color: #CC4C4C;
 }
 
-.cart-quantity-input {/*MARK*/
+.cart-quantity-input {
     height: 34px;
     width: 50px;
     border-radius: 5px;
@@ -162,33 +170,33 @@
     margin-right: 25px;
 }
 
-.cart-row:last-child {/*MARK*/
+.cart-row:last-child {
     border-bottom: 1px solid black;
 }
 
-.cart-row:last-child .cart-column {/*MARK*/
+.cart-row:last-child .cart-column {
     border: none;
 }
 
-.cart-total {/*MARK*/
+.cart-total {
     text-align:end;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.cart-total-title {/*MARK*/
+.cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
     color: black;
     margin-right: 20px;
 }
 
-.cart-total-price {/*MARK*/
+.cart-total-price {
     color: #333;
     font-size: 1.1em;
 }
 
-.btn-purchase {/*MARK*/
+.btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
